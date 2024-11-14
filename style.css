@@ -1,0 +1,568 @@
+* {
+  margin: 0;
+  padding: 0;
+
+  text-decoration: none;
+  list-style: none;
+  box-sizing: border-box;
+}
+
+header {
+  background-image: url("img/fon.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: auto;
+  height: 1000px;
+  color: #ffffff;
+}
+.headtext {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 80px;
+  position: absolute;
+  top: 50px;
+  right: 500px;
+}
+.headtext > a > p {
+  font-family: "Work Sans";
+  font-size: 19px;
+  font-weight: 400;
+  line-height: 22.71px;
+  color: #ffffff;
+}
+.FirstScreen {
+  display: flex;
+  position: absolute;
+  left: 700px;
+  top: 470px;
+  gap: 90px;
+}
+.FirstScreen > h1 {
+  font-family: "Roboto";
+  font-size: 68px;
+  font-weight: 400;
+  line-height: 67.86px;
+}
+
+.making {
+  width: auto;
+  height: 725px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  gap: 100px;
+}
+.makingText {
+  display: flex;
+  flex-direction: column;
+  gap: 70px;
+}
+
+.makingText > h1 {
+  font-family: "Work Sans";
+  font-size: 68px;
+  font-weight: 400;
+  line-height: 67.86px;
+}
+
+.makingText > p {
+  font-family: "Work Sans";
+  font-size: 19px;
+  font-weight: 400;
+  line-height: 33.13px;
+}
+
+.butt {
+  display: flex;
+  gap: 30px;
+  align-items: center;
+  font-family: "Roboto";
+  font-size: 19px;
+  font-weight: 400;
+  line-height: 18.93px;
+}
+
+.button {
+  width: 155px;
+  height: 50px;
+  border-radius: 42px;
+  border-style: solid;
+  border-color: #20201f;
+  color: #20201f;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.button1 {
+  color: #20201f;
+}
+
+.t {
+  margin-bottom: 7px;
+  scale: 120%;
+}
+
+.a {
+  margin-bottom: 480px;
+  margin-left: 100px;
+  scale: 120%;
+}
+
+.b {
+  margin-bottom: 20px;
+  margin-left: -80px;
+}
+
+.Our {
+  width: auto;
+  height: 1030px;
+  background-color: #e5e2de;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+
+.big {
+  display: flex;
+  flex-direction: column;
+  gap: 100px;
+}
+
+.tetxOur {
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+}
+.tetxOur > h1 {
+  font-family: "Work Sans";
+  font-size: 68px;
+  font-weight: 400;
+  line-height: 67.86px;
+}
+.TextBOur {
+  display: flex;
+  gap: 50px;
+  font-family: "Work Sans";
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 22.71px;
+}
+.TextOut {
+  display: flex;
+  gap: 110px;
+  align-items: center;
+  font-family: "Work Sans";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 29.63px;
+}
+
+.TextOut1 {
+  font-family: "Work Sans";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 29.63px;
+}
+
+.xz {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.central {
+  background-image: url("img/table3.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 519px;
+  height: 379px;
+}
+.central > h1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 160px;
+  margin-left: 70px;
+  font-family: "Work Sans";
+  font-size: 45px;
+  font-weight: 400;
+  line-height: 53.57px;
+  text-align: center;
+  color: white;
+}
+.central > p {
+  font-family: "Work Sans";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 19.2px;
+  margin-left: 20px;
+  margin-top: 125px;
+}
+.Olivo {
+  background-image: url("img/sofa3.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 519px;
+  height: 379px;
+  margin-top: -120px;
+}
+.Olivo > h1 {
+  font-family: "Work Sans";
+  display: flex;
+  align-items: center;
+  margin-top: 160px;
+  justify-content: center;
+  font-size: 45px;
+  font-weight: 400;
+  line-height: 53.57px;
+  color: #ffffff;
+}
+.arrownum {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.arrow {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+  margin-top: 950px;
+  margin-left: -200px;
+}
+
+.Find {
+  height: 840px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.fon {
+  background-image: url("img/fon2.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 600px;
+  height: 840px;
+  position: absolute;
+  right: 0px;
+}
+
+.text {
+  width: 600px;
+  height: 462px;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  margin-right: 500px;
+}
+
+.text > h1 {
+  font-family: "Work Sans";
+  font-size: 68px;
+  font-weight: 400;
+  line-height: 67.86px;
+  word-spacing: 60px;
+}
+
+.text > p {
+  font-family: "Work Sans";
+  font-size: 19px;
+  font-weight: 400;
+  line-height: 33.13px;
+}
+
+.button2 {
+  width: 323px;
+  height: 62px;
+  border-radius: 14.2px;
+  border-color: #8b8b8b;
+  border-style: solid;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #8b8b8b;
+  font-family: "Work Sans";
+  font-size: 19px;
+  font-weight: 400;
+  line-height: 22.71px;
+}
+
+.button3 {
+  width: 131px;
+  height: 50px;
+  border-radius: 41.64px;
+  border-color: #20201f;
+  border-style: solid;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #20201f;
+  font-family: "Work Sans";
+  font-size: 19px;
+  font-weight: 400;
+  line-height: 22.71px;
+}
+
+.Terrace {
+  height: 592px;
+  background-color: #20201f;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 200px;
+}
+
+.Terrace > h1 {
+  font-family: "Work Sans";
+  color: #e5e2de;
+  font-size: 68px;
+  font-weight: 400;
+  line-height: 67.86px;
+  text-align: center;
+}
+
+.Terrace > a > p {
+  width: 179px;
+  height: 50px;
+  border-radius: 41.64px;
+  border-color: #e5e2de;
+  border-style: solid;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #e5e2de;
+  font-family: "Work Sans";
+  font-size: 19px;
+  font-weight: 400;
+  line-height: 18.93px;
+}
+
+.t5 {
+  position: absolute;
+  right: 1150px;
+  margin-top: -91px;
+}
+
+.ta5 {
+  position: absolute;
+  left: 1200px;
+  margin-top: -200px;
+}
+
+.tab5 {
+  position: absolute;
+  right: 200px;
+  margin-top: 400px;
+}
+.designs {
+  position: relative;
+  z-index: 1;
+}
+.designs {
+  height: 615px;
+  display: flex;
+  background-color: #ffffff;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.designs > p {
+  font-family: "Roboto";
+  font-size: 49px;
+  font-weight: 400;
+  line-height: 57.5px;
+  text-align: center;
+}
+
+.designs > a > p {
+  width: 155px;
+  height: 50px;
+  border-radius: 41.64px;
+  border-color: #20201f;
+  border-style: solid;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Roboto";
+  color: #20201f;
+  font-size: 19px;
+  font-weight: 400;
+  line-height: 18.93px;
+}
+
+.dealer {
+  background-color: #f7f7f7;
+  height: 840px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.fon2 {
+  background-image: url("img/fon3.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 600px;
+  height: 840px;
+  position: absolute;
+  left: 0px;
+}
+
+.text1 {
+  width: 600px;
+  height: 399px;
+  display: flex;
+  flex-direction: column;
+  gap: 90px;
+  margin-left: 500px;
+}
+
+.text1 > h1 {
+  font-family: "Roboto";
+  font-size: 68px;
+  font-weight: 400;
+  line-height: 67.86px;
+  word-spacing: 30px;
+}
+
+.text1 > p {
+  font-family: "Work Sans";
+  font-size: 19px;
+  font-weight: 400;
+  line-height: 33.13px;
+}
+
+.button4 {
+  width: 179px;
+  height: 50px;
+  border-radius: 41.64px;
+  border-color: #20201f;
+  border-style: solid;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #20201f;
+  font-family: "Work Sans";
+  font-size: 19px;
+  font-weight: 400;
+  line-height: 18.93px;
+}
+
+.Request {
+  width: auto;
+  height: 289px;
+  background-color: #e5e2de;
+  display: flex;
+  gap: 100px;
+  align-items: center;
+  justify-content: center;
+}
+.Request > p {
+  font-family: "Work Sans";
+  font-size: 30px;
+  font-weight: 400;
+  line-height: 36px;
+}
+.email {
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+}
+.email > p {
+  font-size: 19px;
+  font-weight: 400;
+  line-height: 22.71px;
+  font-family: "Work Sans";
+}
+.button5 {
+  border-radius: 14px;
+  border-color: #8b8b8b;
+  border-style: solid;
+  width: 342px;
+  height: 62px;
+}
+.button6 {
+  border-radius: 14px;
+  border-color: #8b8b8b;
+  border-style: solid;
+  width: 495px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #20201f;
+}
+.button6 > p {
+  font-family: "Work Sans";
+  font-size: 19px;
+  font-weight: 400;
+  line-height: 37.86px;
+  color: #20201f;
+}
+.button7 {
+  border-style: solid;
+  border-radius: 41px;
+  border-color: #20201f;
+  width: 107px;
+  height: 50px;
+  color: #20201f;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: -100px;
+}
+footer > div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+  width: auto;
+  height: 269px;
+  background-color: #20201f;
+  color: #e5e2de;
+}
+footer > div > img {
+  margin-top: -50px;
+  padding-right: 150px;
+}
+.TextFooter {
+  margin-left: 30px;
+  margin-top: 200px;
+  display: flex;
+  flex-direction: column;
+  height: 300px;
+}
+.TextFooter > p {
+  font-family: "Work Sans";
+  font-size: 19px;
+  font-weight: 400;
+  line-height: 33.13px;
+}
+#main-txt {
+  padding-bottom: 20px;
+  font-family: "Work Sans";
+  font-size: 19px;
+  font-weight: 400;
+  line-height: 22.71px;
+  margin-bottom: 20px;
+}
+.under-ft {
+  display: flex;
+  justify-content: space-around;
+  padding-left: 650px;
+  padding-right: 400px;
+}
+.contact1{
+  display: flex;
+  margin-left: 100px;
+  gap: 25px;
+  
+}
